@@ -4,11 +4,11 @@
   "description": "Ultra cheap website monitoring. Posts downtime notifications to Slack.",
   "main": "index.js",
   "bin": {
-    "pingzy": "./run-cli.js"
+    "pingzy": "./cli.js"
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "./run-cli.js"
+    "start": "./cli.js"
   },
   "repository": {
     "type": "git",

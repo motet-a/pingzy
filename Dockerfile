@@ -8,7 +8,7 @@ COPY package.json ./
 RUN npm install && npm cache clean
 COPY . .
 
-CMD ./run-cli.js \
+CMD ./cli.js \
     --urls $URLS \
     --slack-domain $SLACK_DOMAIN \
     --slack-url $SLACK_URL \
