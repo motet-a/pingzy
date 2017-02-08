@@ -1,3 +1,4 @@
-'use strict';
-var core = require('./lib/core');
-module.exports = core;
+'use strict'
+
+const core = require('./lib/core')
+module.exports = core
